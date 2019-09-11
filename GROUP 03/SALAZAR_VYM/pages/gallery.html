@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../styles/style.css">
+	<link rel="stylesheet" href="../styles/altstyle.css">
+</head>
+<body class="body1">
+
+	<!-- navigation bar for gallery -->
+	<div class="hd-color">
+			<div class="hd-container">
+				<div class="hd-bar">
+					<a class="logothis" href="../SALAZAR.html"> <img src="../images/logo.png" alt="logoimage"></a>
+				</div>
+				<nav class="theme-nav">
+					<ul>
+						<li><a href="../SALAZAR.html"><b>Home</b></a></li>
+						<li><a href="../pages/about-me.html"><b>About Me</b></a></li>
+						<li><a href="../pages/gallery.html"><b>Gallery</b></a></li>
+						<li><a href="../pages/contact.html"><b>Contact</b></a></li>
+					</ul>
+				</nav>
+			</div>
+	</div><br><br><br>
+	<br>
+
+
+	<!-- slider for gallery -->
+	<h2><b>Life and Adventure</b></h2> <!-- personal images -->
+	<p class="p1">The best support system I have in time of need. Be free beyond the horizon.</p><br>
+	
+	<div class="slideshow-container">
+		 <div class="mySlides1">
+		    <img src="../images/personal1.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/personal2.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/personal4.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/personal5.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure1.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure2.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure3.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure4.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure5.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <div class="mySlides1">
+		    <img src="../images/adventure6.png" alt="mySlides1" style="width:100%">
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+		</div>
+	<br>
+	<br>
+	<br>
+
+	<!-- slider for gallery -->
+	<h2><b>Seminars and Work Experience</b></h2> <!-- images of ojt -->
+	<p class="p1">The only source of knowledge is through experience.</p><br>
+
+	<div class="slideshow-container">
+
+	  <div class="mySlides2">
+	    <img src="../images/seminar2.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <div class="mySlides2">
+	    <img src="../images/seminar3.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <div class="mySlides2">
+	    <img src="../images/seminar1.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <div class="mySlides2">
+	    <img src="../images/workExperience1.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <div class="mySlides2">
+	    <img src="../images/workExperience2.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <div class="mySlides2">
+	    <img src="../images/workExperience3.png" alt="mySlides2" style="width:100%">
+	  </div>
+
+	  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot1" onclick="currentSlide(1)"></span> 
+	  <span class="dot1" onclick="currentSlide(2)"></span> 
+	  <span class="dot1" onclick="currentSlide(3)"></span>
+	  <span class="dot1" onclick="currentSlide(4)"></span> 
+	  <span class="dot1" onclick="currentSlide(5)"></span> 
+	  <span class="dot1" onclick="currentSlide(6)"></span>
+	</div>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html> 

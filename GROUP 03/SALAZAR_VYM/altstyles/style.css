@@ -1,0 +1,350 @@
+div.about-para-1 {
+ text-indent: 50px;
+ font-size: 25px;
+ font-family: candara;
+transform: skewX(25deg);
+  transform: skewY(10deg);
+  transform: skew(25deg, 10deg);
+  transition: transform 1s;
+  color: red;
+}
+
+div.about-para-1:hover {
+transform: skewX(-20px);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*------navigation bar for other pages--------*/
+
+.hd-color{
+	line-height: 60px;
+	font-family: "candara";
+}
+
+.hd-container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logothis img{
+	height: 40px;
+	padding-left: 0;
+	margin: 0;
+		transform-origin: left top;
+  transition: transform 1s;
+}
+
+.logothis img:hover{
+	transform: rotate(720deg);
+}
+
+.theme-nav{
+	float: right;
+}
+
+.hd-bar{
+	float: left;
+}
+
+.theme-nav ul li{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.theme-nav ul{
+	margin-bottom: 0px;
+}
+
+.theme-nav ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: black;
+	line-height: 60px;
+}
+
+.theme-nav ul li a:hover, 
+.theme-nav ul li a:focus,
+.theme-nav ul li a:active{
+	color: #A88B55!important;
+	transform: translateY(-8px);
+}
+
+.theme-nav{
+	transition: transform 1s;
+}
+
+.theme-nav:hover{
+	transform: translate(20px, 20px);
+}
+/*------slider--------*/
+
+#slider{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*----gallery slider------*/
+.mySlides1, .mySlides2 {display: none}
+img {
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+}
+
+.mySlides1{
+	transition: transform 1s;
+}
+
+.mySlides2{
+	transform-origin: left top;
+  transition: transform 1s;
+}
+.mySlides2:hover{
+	transform: rotate(720deg);
+}
+.mySlides1:hover{
+	transform: rotate(1080deg);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 820px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+h2 {
+	font-family: candara;
+	font-size: 28px;
+	color: #A88B55;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.p1 {
+	font-family: candara;
+	font-size: 25px;
+	color: #660066;
+	text-align: center;
+	transition: transform 1s;
+}
+
+.p1:hover{
+	transform: rotate(1080deg);
+}
+
+.body1{
+	background-image: url("../images/bg.jpeg");
+/* Full height */
+  height: 100%; 
+}
+
+.bgindex{
+  background-image: url("../images/slider1.0.png");
+
+  /* Full height */
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d-block w-100{
+	  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#aboutme h2 {
+	margin-bottom: 25px;
+}
+.img-wrap{
+	width: 100%;
+}
+
+.img-wrap img{ 
+	width: 92%;
+	padding-right: 13px;
+	padding-left: 13px;
+	padding-bottom: 13px;
+	padding-top:13px;
+	border-radius: 50%;
+	box-shadow: 0 0 15px #A88B55;
+	transition: transform 3s;
+}
+
+.img-wrap img:hover{
+	transform: rotate(1080deg);
+}
+
+.hd2{
+	text-align: left;
+}
+
+.w3-blue, .w3-hover-blue:hover {
+   color: #A88B55!important;
+   text-align: center;
+}
+
+.w3-container{
+	text-align: center;
+}
+
+/*----contact fonts----*/
+
+.contact-text{
+	text-align: center;
+	font-family: candara;
+	font-size: 25px;
+	color: #80FF00;
+	transition: transform 1s;
+}
+
+.contact-text:hover{
+	transform: scale(2);
+}
+
+.boldtext{
+	font-size: 40px;
+	font-family: candara;
+	text-align: center;
+	color: #660066;
+}
+
+.ctext{
+	font-size: 50px;
+	font-family: candara;
+	text-align: center;
+	color: #00FFFF;
+	transition: transform 1s;
+}
+
+.ctext:hover{
+	transform: rotate(1080deg);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 35%;
+  padding: 40px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-left: 128px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*nav for index*/
+
+.hd-color1{
+	line-height: 60px;
+}
+
+.hd-bar1{
+	float: left;
+}
+
+.theme-nav1{
+	float: right;
+}
+
+.theme-nav1 ul li{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.theme-nav1 ul{
+	margin-bottom: 0px;
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+}
+
+.theme-nav1 ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: black;
+	line-height: 60px;
+}
+
+.theme-nav1 ul li a:hover{
+	color: #A88B55!important;
+}
+
+.theme-nav1{
+	transition: transform 1s;
+}
+
+.theme-nav1:hover{
+	transform: translate(20px, 20px);
+}
+
+.logothis1 img{
+	height: 40px;
+	padding-left: 0;
+	margin: 0;
+	transform-origin: left top;
+  transition: transform 1s;
+}
+
+.logothis1 img:hover{
+	transform: rotate(720deg);
+}

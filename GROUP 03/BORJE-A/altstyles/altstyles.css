@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Aclonica");
+
+
+
+.header a{
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.topnav {
+  background-color: #00000;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #448f99;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #cd1041;
+  color: white;
+}
+
+  html, body, div,h1, h2{
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+  }
+
+  footer, header, nav {
+    display: block;
+  }
+
+  body {
+    line-height: 1;
+  }
+
+ 
+  body {
+    -webkit-text-size-adjust: none;
+  }
+
+
+
+
+  @-ms-viewport {
+    width: device-width;
+  }
+
+  body {
+    -ms-overflow-style: scrollbar;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    html, body {
+      min-width: 320px;
+    }
+
+  }
+
+  body {
+    background: ;
+  }
+
+
+
+
+
+  body{
+    font-family: 'Aclonica';font-size: 26px;
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 2em;
+  }
+
+    @media screen and (max-width: 1680px) {
+
+      body {
+        font-size: 19pt;
+      }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      body {
+        font-size: 11pt;
+      }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+      body {
+        font-size: 12pt;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      body {
+        font-size: 12pt;
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      body {
+        font-size: 12pt;
+      }
+
+    }
+
+  a {
+    text-decoration: underline;
+  }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+
+  p {
+    margin: 0 0 2em 0;
+  }
+
+  h1, h2{
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+  }
+
+    h1 a, h2 a{
+      text-decoration: none;
+    }
+
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+ 
+  
+
+  h1, h2,  {
+    color: #25383B;
+  }
+
+  
+
+
+  header p {
+    margin: 0 0 1.5em 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  header h2 + p {
+    font-size: 1.25em;
+    margin-top: -1em;
+    line-height: 1.85em;
+  }
+ 
+
+  header p {
+    color: #25383B;
+  }
+
+
+/* Gallery */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
